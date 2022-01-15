@@ -1,0 +1,56 @@
+.colorDeFondo {
+    background: #464550;
+    padding: 20px;
+    margin: 20px;
+}
+
+.aticle__header, .facturas, .noquis, .pastaFrescas, .pizza, .muffinDeChocolate, .lemonPie {
+    background-color: #87677a ;
+    box-shadow: 11px 14px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 14px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 14px 5px 0px rgba(0,0,0,0.75);
+    color: #fff;
+    display: block;
+    font-family: 'Luxurious Roman', cursive;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 60ch;
+
+    animation: typing 2s steps(60), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    
+    padding: 20px;
+    margin: 20px;
+    
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+.facturas, .pastaFrescas, .muffinDeChocolate{
+    background-color: #8e6865;
+    color: #d7baac;
+}
+
+.noquis, .pizza, .lemonPie{
+    background-color: #d7baac;
+    color: #8e6865;
+}
+
+@keyframes typing {
+    from { width: 0;}
+}
+
+@keyframes blink {
+    50% { border-color: transparent ;}
+}
+
+
+
+.ingredientes, .procedimiento {
+    font-family: 'Bad Script', cursive;
+    color: #fff;
+}
+
+.listaDesordenada, .listaOrdenada {
+    color: #fff;
+}
