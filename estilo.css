@@ -4,7 +4,7 @@
     margin: 20px;
 }
 
-.aticle__header, .facturas, .noquis, .pastaFrescas, .pizza, .muffinDeChocolate, .lemonPie {
+.aticle__header{
     background-color: #87677a ;
     box-shadow: 11px 14px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 11px 14px 5px 0px rgba(0,0,0,0.75);
@@ -29,11 +29,13 @@
 .facturas, .pastaFrescas, .muffinDeChocolate{
     background-color: #8e6865;
     color: #d7baac;
+    width: 50ch;
 }
 
 .noquis, .pizza, .lemonPie{
     background-color: #d7baac;
     color: #8e6865;
+    width: 50ch;
 }
 
 @keyframes typing {
